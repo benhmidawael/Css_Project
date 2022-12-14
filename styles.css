@@ -12,6 +12,8 @@ body {
 }
 
 hr {
+  display: inline-block;
+  width: 80%;
   border: none;
   height: 1px;
   background-color: #333;
