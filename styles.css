@@ -1,0 +1,369 @@
+/*************** Body **************/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+
+
+
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #333;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e4fb9;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+
+/*************** Navbar **************/
+
+.nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  height: auto;
+}
+
+.nav ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+
+}
+
+.nav li {
+
+  float: left;
+}
+
+.nav img {
+  width: 65px;
+  border-radius: 50%;
+  padding: 5px;
+
+}
+
+.nav h2 {
+  color: white;
+  font-size: 20px;
+  padding: 1px;
+
+
+}
+
+.nav a {
+  display: block;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav li a:hover {
+  text-decoration: underline;
+}
+
+
+/*************** home **************/
+
+.home button {
+  display: inline-block;
+  background-color: #1059f7;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  border-radius: 25%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.home button:hover {
+  background-color: #1e4fb9;
+  color: white;
+}
+
+.home iframe {
+  width: 50%;
+  height: 500px;
+  border-radius: 10%;
+
+
+}
+
+.home ul {
+
+  list-style-type: none;
+  margin: 1;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  font-weight: bold;
+  color: #18181b
+}
+
+/*************** about **************/
+
+.about img {
+  width: 800px;
+  border-radius: 30%;
+  border: #18181b 1px solid;
+}
+
+.about p {
+  text-transform: capitalize;
+  font-size: larger;
+  padding: 7px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+}
+
+/*************** work **************/
+
+.work img {
+  width: 800px;
+  border-radius: 30%;
+  border: #18181b 1px solid;
+}
+
+.work ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 1;
+  background-color: transparent;
+  text-align: left;
+  color: #18181b
+}
+
+.work u {
+  color: #1059f7;
+}
+
+.work li {
+  padding: 7px;
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: center;
+}
+
+/*************** resume **************/
+
+.resume img {
+  width: 800px;
+  border-radius: 30%;
+  border: #18181b 1px solid;
+}
+
+.resume ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 1;
+  background-color: transparent;
+  color: #4747da
+}
+
+.resume li {
+  padding: 7px;
+  padding-left: 400px;
+  padding-right: 400px;
+  color: #1059f7;
+}
+
+.resume p {
+  text-transform: capitalize;
+  font-size: x-large;
+  padding: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+
+}
+
+
+.resume button {
+
+  background-color: #1059f7;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  border-radius: 25%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.resume button:hover {
+  background-color: #1e4fb9;
+  color: white;
+}
+
+/*************** contact **************/
+
+.contact img {
+  width: 800px;
+  height: 500px;
+  border-radius: 30%;
+  border: #18181b 1px solid;
+}
+
+.contact input[type=text],
+select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact input[type=email],
+select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact input[type=radio],
+select {
+  width: 1%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact textarea,
+select {
+  width: 98%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=reset] {
+  width: 20%;
+  background-color: #f50606;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: #f50606;
+}
+
+
+/*************** footer **************/
+
+.footer {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  height: auto;
+}
+
+.footer ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+
+}
+
+.footer li {
+
+  float: right;
+}
+
+.footer a img {
+  width: 40px;
+  border-radius: 50%;
+  padding: 1px;
+
+}
+
+.footer #logo {
+  width: 80px;
+  border-radius: 50%;
+  padding: 8px;
+
+}
+
+.footer p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 1px;
+
+
+}
+
+.footer a {
+  display: block;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  padding: 14px 16px;
+  cursor: pointer;
+}
