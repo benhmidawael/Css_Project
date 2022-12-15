@@ -64,7 +64,7 @@ h6 {
 
 .nav img {
   width: 65px;
-  border-radius: 50%;
+  border-radius: 50px;
   padding: 5px;
 
 }
@@ -100,7 +100,7 @@ h6 {
   border: none;
   color: white;
   padding: 20px 32px;
-  border-radius: 25%;
+  border-radius: 50px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -115,7 +115,7 @@ h6 {
 .home iframe {
   width: 50%;
   height: 500px;
-  border-radius: 10%;
+  border-radius: 50px;
 
 
 }
@@ -136,8 +136,7 @@ h6 {
 
 .about img {
   width: 800px;
-  border-radius: 30%;
-  border: #18181b 1px solid;
+  border-radius: 200px;
 }
 
 .about p {
@@ -153,8 +152,7 @@ h6 {
 
 .work img {
   width: 800px;
-  border-radius: 30%;
-  border: #18181b 1px solid;
+  border-radius: 200px;
 }
 
 .work ul {
@@ -181,8 +179,7 @@ h6 {
 
 .resume img {
   width: 800px;
-  border-radius: 30%;
-  border: #18181b 1px solid;
+  border-radius: 200px;
 }
 
 .resume ul {
@@ -216,7 +213,7 @@ h6 {
   border: none;
   color: white;
   padding: 20px 32px;
-  border-radius: 25%;
+  border-radius: 50px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -232,9 +229,8 @@ h6 {
 
 .contact img {
   width: 800px;
-  height: 500px;
-  border-radius: 30%;
-  border: #18181b 1px solid;
+  height: 600px;
+  border-radius: 200px;
 }
 
 .contact input[type=text],
@@ -340,14 +336,14 @@ input[type=reset]:hover {
 
 .footer a img {
   width: 40px;
-  border-radius: 50%;
+  border-radius: 200px;
   padding: 1px;
 
 }
 
 .footer #logo {
   width: 80px;
-  border-radius: 50%;
+  border-radius: 50px;
   padding: 8px;
 
 }
